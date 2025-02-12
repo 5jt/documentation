@@ -38,6 +38,7 @@ The column labelled *O/S* indicates if a function applies only on Windows (W), o
 |`219`  |[Compress/Decompress Vector of Short Integers](./compress-vector-of-short-integers.md)|&nbsp;|
 |`220`  |[Serialise/Deserialise Array](./serialise-array.md)                                   |&nbsp;|
 |`400`  |[Compiler Control](./compiler-control.md)                                             |&nbsp;|
+|`441`  |[Platform Information](./platform-information.md)                                     |&nbsp;|
 |`600`  |[Trap Control](./trap-control.md)                                                     |&nbsp;|
 |`739`  |[Temporary Directory](./temporary-directory.md)                                       |&nbsp;|
 |`819`  |[Case Convert](./case-convert.md)                                                     |&nbsp;|
