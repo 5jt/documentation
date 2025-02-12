@@ -3,7 +3,7 @@
 !!! note
     **This is a stub page**
 
-`Y` may be a....
+`Y` is `⍬` (zilde).
 
 <h2 class="example">Example</h2>
 ```apl
