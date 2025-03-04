@@ -196,11 +196,18 @@ The next set of examples, illustrate the use of the Recurse variant option to li
 
 
 
-The following expression will return all Word document (`.docx` and `.doc`) in the current directory, searching recursively through any sub-directories:
+The following expression will return all Word documents (`.docx` and `.doc`) in the current directory, searching recursively through any sub-directories:
 ```apl
      (⎕NINFO⍠('Recurse' 1)('Wildcard' 1))'*.docx' '*.doc'
 ```
 
+The following expression "touches" files - that is, it sets their last modification time to the current UTC time:
+```apl
+      (⊂13(1 ⎕DT'Z'))(⎕NINFO⍠1)'*.txt'
+┌───────────────────────┐
+│45719.53226 45719.53226│
+└───────────────────────┘
+```
 
 ## Note
 
